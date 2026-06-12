@@ -4,12 +4,12 @@ import { ArrowRight } from 'lucide-react';
 import { Reveal, Kicker } from '../../components/public/primitives';
 
 const POSTS = [
-  { id: 1, slug: ‘fbr-quarterly-advance-tax’, cat: ‘Tax’, title: ‘The freelancer’s guide to FBR quarterly advance tax’, excerpt: ‘When the quarters fall, how the slabs apply to foreign income, and the exact figure to set aside each time a payment lands.’, date: ‘Jun 2, 2026’, read: ‘8 min’, featured: true },
-  { id: 2, slug: ‘freeze-usd-pkr-rate’, cat: ‘Forex’, title: ‘Why your USD→PKR rate should be frozen, not floating’, excerpt: ‘The case against revaluing your past. How freezing the rate at payment keeps your books — and your tax — honest.’, date: ‘May 21, 2026’, read: ‘5 min’ },
-  { id: 3, slug: ‘upwork-sliding-fee-decoded’, cat: ‘Platforms’, title: ‘Upwork’s sliding fee, decoded’, excerpt: ‘The 10%→5% threshold, when it resets, and what it really costs you across a year of one big client.’, date: ‘May 9, 2026’, read: ‘6 min’ },
-  { id: 4, slug: ‘90-day-cashflow-forecast’, cat: ‘Cash flow’, title: ‘Reading a 90-day forecast before it reads you’, excerpt: ‘Danger windows are predictable. Here’s how to spot the week your balance dips and invoice around it.’, date: ‘Apr 28, 2026’, read: ‘7 min’ },
-  { id: 5, slug: ‘india-it-vs-pakistan-fbr’, cat: ‘Tax’, title: ‘India IT vs Pakistan FBR: a side-by-side for cross-border freelancers’, excerpt: ‘Two regimes, one freelancer. What changes when you switch presets, and what stays the same.’, date: ‘Apr 14, 2026’, read: ‘9 min’ },
-  { id: 6, slug: ‘invite-accountant-read-only’, cat: ‘Practice’, title: ‘Inviting your accountant without handing over the keys’, excerpt: ‘How read-only access works, what your CA actually sees, and why hiding write controls beats disabling them.’, date: ‘Apr 1, 2026’, read: ‘4 min’ },
+  { id: 1, slug: "fbr-quarterly-advance-tax", cat: "Tax", title: "The freelancer's guide to FBR quarterly advance tax", excerpt: "When the quarters fall, how the slabs apply to foreign income, and the exact figure to set aside each time a payment lands.", date: "Jun 2, 2026", read: "8 min", featured: true },
+  { id: 2, slug: "freeze-usd-pkr-rate", cat: "Forex", title: "Why your USD→PKR rate should be frozen, not floating", excerpt: "The case against revaluing your past. How freezing the rate at payment keeps your books — and your tax — honest.", date: "May 21, 2026", read: "5 min" },
+  { id: 3, slug: "upwork-sliding-fee-decoded", cat: "Platforms", title: "Upwork's sliding fee, decoded", excerpt: "The 10%→5% threshold, when it resets, and what it really costs you across a year of one big client.", date: "May 9, 2026", read: "6 min" },
+  { id: 4, slug: "90-day-cashflow-forecast", cat: "Cash flow", title: "Reading a 90-day forecast before it reads you", excerpt: "Danger windows are predictable. Here's how to spot the week your balance dips and invoice around it.", date: "Apr 28, 2026", read: "7 min" },
+  { id: 5, slug: "india-it-vs-pakistan-fbr", cat: "Tax", title: "India IT vs Pakistan FBR: a side-by-side for cross-border freelancers", excerpt: "Two regimes, one freelancer. What changes when you switch presets, and what stays the same.", date: "Apr 14, 2026", read: "9 min" },
+  { id: 6, slug: "invite-accountant-read-only", cat: "Practice", title: "Inviting your accountant without handing over the keys", excerpt: "How read-only access works, what your CA actually sees, and why hiding write controls beats disabling them.", date: "Apr 1, 2026", read: "4 min" },
 ];
 
 const CATS = ['All', 'Tax', 'Forex', 'Platforms', 'Cash flow', 'Practice'];
