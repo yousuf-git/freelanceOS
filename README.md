@@ -1,8 +1,6 @@
 <div align="center">
 
-  <img src="logo.svg" alt="freelanceOS logo" width="120" />
-
-  <h1>freelanceOS</h1>
+  <img src="logo.svg" alt="freelanceOS logo" width="480" />
 
   <p><strong>A unified financial workspace for south asian freelancers. Currency-aware, platform-fee-aware, and tax-localized to Pakistan FBR, India IT, and Bangladesh NBR.</strong></p>
 
