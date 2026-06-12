@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+
+  <defs>
+    <linearGradient id="bar1" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#134e4a"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="0.8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Rounded dark background -->
+  <rect width="32" height="32" rx="7" fill="#1c1916"/>
+
+  <!-- Subtle inner border for depth -->
+  <rect width="32" height="32" rx="7" fill="none" stroke="#2e2923" stroke-width="1"/>
+
+  <!-- 3 ascending bars — baseline at y=27 -->
+  <rect x="4"  y="21" width="6" height="6"  rx="1.5" fill="url(#bar1)"/>
+  <rect x="13" y="15" width="6" height="12" rx="1.5" fill="url(#bar2)"/>
+  <rect x="22" y="8"  width="6" height="19" rx="1.5" fill="url(#bar3)"/>
+
+  <!-- Rising trend line across bar tops, with glow -->
+  <polyline points="7,21 16,15 25,8"
+            fill="none" stroke="#5eead4" stroke-width="1.75"
+            stroke-linecap="round" stroke-linejoin="round"
+            filter="url(#glow)" opacity="0.9"/>
+
+  <!-- Accent node at trend tip -->
+  <circle cx="25" cy="8" r="2.2" fill="#1c1916"/>
+  <circle cx="25" cy="8" r="2.2" fill="none" stroke="#5eead4" stroke-width="1.4" filter="url(#glow)"/>
+
+</svg>
